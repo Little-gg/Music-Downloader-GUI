@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "mdl"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+musicdl = "^2.1.5"
+flask = "^1.1.2"
+flask_session = "^0.3.2"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.5.3"
+
+[[tool.poetry.source]]
+name = 'china'
+url = 'http://pypi.tuna.tsinghua.edu.cn/simple'
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
